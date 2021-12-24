@@ -32,3 +32,23 @@ color: rgb(112, 117, 122);
 display: block;
 font-size: 20px;
 }
+
+.clearfix-weather-temperature img {
+  margin-right: 10px; 
+}
+
+.clearfix-weather-temperature strong {
+  color: rgb(32, 33, 36);
+display: inline;
+font-size: 48px;
+font-weight: 400;
+height: auto;
+line-height: 60px;
+width: auto;
+}
+
+.clearfix-weather-temperature .units {
+position: relative;
+top: -20px;
+font-size: 16px;
+}
