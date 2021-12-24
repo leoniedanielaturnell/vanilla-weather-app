@@ -30,6 +30,9 @@ li {
   display: block;
   font-size: 20px;
 }
+li:first-letter {
+  text-transform: capitalize;
+}
 
 .clearfix-weather-temperature img {
   margin-right: 10px;
