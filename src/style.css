@@ -53,3 +53,12 @@ li:first-letter {
   top: -20px;
   font-size: 16px;
 }
+
+.clearfix-weather-temperature .active {
+  color: rgb(32, 33, 36);
+  cursor: default;
+}
+
+.clearfix-weather-temperature .active:hover {
+  text-decoration: none;
+}
