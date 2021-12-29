@@ -62,3 +62,7 @@ li:first-letter {
 .clearfix-weather-temperature .active:hover {
   text-decoration: none;
 }
+
+.weather-forecast {
+  text-align: center;
+}
