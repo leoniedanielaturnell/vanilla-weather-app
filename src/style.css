@@ -1,14 +1,27 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(112, 117, 122);
+  background: url(https://www.ionos.de/digitalguide/fileadmin/DigitalGuide/Teaser/cloud-speicher-dienste-t.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#search-form {
+  width: 550px;
+  margin: 0% auto;
+  padding-top: 5%;
 }
 
 .weather-app {
   width: 650px;
-  margin: 30px auto;
-  padding: 20px;
-  border: 1px solid #adadad;
-  border-radius: 20px;
+  margin: 5% auto;
+  padding: 5%;
+  border: 1px solid rgb(112, 117, 122);
+  border-radius: 10%;
+  background-color: white;
 }
 
 h1 {
@@ -69,4 +82,9 @@ li:first-letter {
 
 .weather-forecast-temperatures {
   font-size: 13px;
+}
+
+small {
+  display: block;
+  text-align: center;
 }
