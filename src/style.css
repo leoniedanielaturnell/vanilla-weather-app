@@ -66,3 +66,7 @@ li:first-letter {
 .weather-forecast {
   text-align: center;
 }
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
